@@ -1,0 +1,51 @@
+.container{ /*Bloque gris y contiene todos los demás*/
+    width: 950px; /*Ancho*/
+    background-color: silver; /*Color de fondo*/
+    margin: 0px auto; /*Se establece que el bloque irá en el centro del contenedor padre*/
+    padding: 20px; /*Define la parte intera = Hacia adentro*/
+}
+
+.top-nav { /*Bloque verde*/
+    height: 150px; /*Altura*/
+    background-color: green; /*Color de fondo*/
+    margin-bottom: 20px; /*Define el área de espacio necesaria en la parte inferior del bloque, fuera del borde definido*/
+}
+
+.side-nav { /*Bloque azul*/
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+
+.main { /*Bloque rojo que contiene los bloques amarillos y el violeta*/
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sub-content { /*Bloques amarillos*/
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+#advertisement { /*Bloque violeta*/
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 10px;
+}
+
+.row1 { 
+display: flex; /*Da la orden de que los bloques estén al lado en vez de apilados o amontonados*/
+}
+
+.row2 {
+display: flex;
+
+}
+
+/*Decidí hacer 2 flex para entender mejor el concepto y no acostumbrarme a resumir todo en uno*/
